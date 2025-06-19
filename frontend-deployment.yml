@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: kalpant/frontend:z32
+          image: techwithyogesh/app:y1
           imagePullPolicy: Always
           ports:
             - containerPort: 80
