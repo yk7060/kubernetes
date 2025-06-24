@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: techwithyogesh/app:y1
+          image: techwithyogesh/backend:qst
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
